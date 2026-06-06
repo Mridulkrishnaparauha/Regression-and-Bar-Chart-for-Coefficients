@@ -1,5 +1,8 @@
 # 📊 Swiggy Financial Regression Analysis
 
+
+### Disclaimer: This project is intended as an educational demonstration of regression analysis techniques using a limited financial dataset. Due to the small sample size, the results should be interpreted for learning purposes rather than as statistically conclusive evidence.
+
 | Category        | Details                                 |
 | --------------- | --------------------------------------- |
 | Project Type    | Business Analytics                      |
@@ -9,8 +12,6 @@
 | Analysis Type   | Multiple Linear Regression              |
 | Target Variable | Total Assets                            |
 | Status          | Completed                               |
-
-## Applying statistical modeling to understand the financial drivers of business performance through data-driven analysis.
 
 ## Executive Summary
 
@@ -66,7 +67,7 @@ The dataset was used to explore statistical relationships between financial indi
 
 ## Dataset Preview
 
-
+<img width="1323" height="162" alt="image" src="https://github.com/user-attachments/assets/cc05a3e9-8dac-4014-b967-80f6f4ba90ef" />
 
 ## Tools & Technologies
 
@@ -124,10 +125,11 @@ plt.barh(coef.index, coef.values)
 
 ### Regression Coefficient Analysis
 
+![Regression Coefficient Analysis](images/regression_coefficients.png)
 
 ### Actual vs Predicted Values
 
-
+![Actual vs Predicted Values](images/actual_vs_predicted.png)
 
 ## Key Findings
 
